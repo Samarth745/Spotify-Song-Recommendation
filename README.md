@@ -12,9 +12,12 @@ The result is stored in a vector <br>
 ## Recommendation
 Spotify provides features in numeric forms which is already scaled <br>
 The data base consists of multiple songs. We create a vector for each song on the deatures provided by spotify <br>
-We use KNN to select 5 songs which are closest distance to the vector of our result song obtained from search. <br>
+We use machine learning model to select 5 songs suggestions obtained from search. <br>
 These 5 songs are shown as recommendation <br>
 Further we store the Name, Link and url of the song for further use. 
+
+##Algorithm
+The recommendation engine uses the cosine similarity algorithm to find similar songs based on their attributes. The algorithm computes the cosine similarity between two movie vectors and returns a value between 0 and 1, with 1 indicating a perfect match.
 
 ## Web Application
 Python Library streamlit is used to create a web application which takes input of the user and recommends songs based on search. <br>
