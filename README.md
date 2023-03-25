@@ -16,7 +16,7 @@ We use machine learning model to select 5 songs suggestions obtained from search
 These 5 songs are shown as recommendation <br>
 Further we store the Name, Link and url of the song for further use. 
 
-##Algorithm
+## Algorithm
 The recommendation engine uses the cosine similarity algorithm to find similar songs based on their attributes. The algorithm computes the cosine similarity between two movie vectors and returns a value between 0 and 1, with 1 indicating a perfect match.
 
 ## Web Application
